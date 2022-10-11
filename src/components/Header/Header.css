@@ -30,3 +30,18 @@
     text-decoration: none;
     color: aliceblue;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .Header .logo{
+        justify-content: center;
+    }
+    .Header{
+        display: block;
+        height: 300px;
+        text-align: center;
+    }
+    .Header .menus ul{
+        display: block;
+    }
+}

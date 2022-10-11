@@ -45,7 +45,7 @@ function App() {
     },
     {
       path:'*',
-      element: <div className="not-found">404 - OPS!  </div>
+      element: <div className="not-found">404 - OPS! Not Found  </div>
     }
   ])
   return (
