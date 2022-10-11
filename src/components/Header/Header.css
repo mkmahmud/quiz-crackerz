@@ -1,0 +1,19 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    overflow: hidden;
+}
+.Header .logo img{
+    width: 70px;
+    padding: 10px;
+}
+.Header .menus ul{
+    display: flex;
+    list-style: none;
+}
+.Header .menus ul li{
+    margin-right: 20px;
+    font-size: 20px;
+}
