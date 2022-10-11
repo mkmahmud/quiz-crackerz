@@ -4,3 +4,9 @@
   color: aliceblue;
   margin: auto;
 }
+
+.not-found{
+  font-size: 100px;
+  text-align: center;
+  color: red;
+}

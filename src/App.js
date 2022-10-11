@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import './App.css';
+import Blog from "./components/Blog/Blog";
 import Home from "./components/Home/Home";
 import SingelQuiz from "./components/Home/SingelQuiz/SingelQuiz";
 import Layout from "./components/Layout/Layout";
@@ -31,14 +32,18 @@ function App() {
           element: <div>Statistics </div>
         },
         {
-          path:'/contact',
-          element: <div>Countact </div>
+          path:'/blog',
+          element: <Blog></Blog>
         },
         {
           path:'/quizes',
           element: <div>Quizes </div>
         },
       ]
+    },
+    {
+      path:'*',
+      element: <div className="not-found">404 - OPS!  </div>
     }
   ])
   return (
