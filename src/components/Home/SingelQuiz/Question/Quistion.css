@@ -36,3 +36,11 @@
 .answer h2{
     text-align: center;
 }
+
+.False{
+    background-color: red !important;
+}
+
+.True{
+    background-color: #198754 !important;
+}
