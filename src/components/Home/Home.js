@@ -2,14 +2,16 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './Home.css'
 import Quiz from './Quiz/Quiz';
+import hero from '../../img/hero.jpg'
 
 const Home = () => {
 
     const topics = useLoaderData();
-
+    
     return (
         <div className='Home'>
             <div className="Home-head">
+                <img src={hero} alt="" />
                 <h2>
                     Think you have what it takes? It's time to head back to the 1990s to see if you can ace this ultimate Blossom quiz! START QUIZ.
                 </h2>

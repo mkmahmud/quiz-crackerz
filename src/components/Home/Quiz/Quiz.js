@@ -9,7 +9,7 @@ const Quiz = ({data}) => {
         <div class="card-body">
           <h5 class="card-title">{data.name}</h5>
           <div className="bottom-bar">
-            <h6>Total {data.total}</h6>
+            <h6>Total Questions ({data.total})</h6>
             <Link to={`/quiz/singel-quiz/${data.id}`} className='btn btn-primary'>Try Now</Link>
           </div>
         </div>

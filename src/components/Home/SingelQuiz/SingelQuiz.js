@@ -7,6 +7,7 @@ const SingelQuiz = () => {
     const data = useLoaderData();
     // console.log(data.data.questions)
     const questions = data.data.questions;
+    console.log(questions)
     return (
         <div className='Singel-question'>
             <h2>{data.data.name}</h2>
