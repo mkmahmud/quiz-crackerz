@@ -4,6 +4,7 @@
     align-items: center;
     height: 80px;
     overflow: hidden;
+    box-shadow: 0 -12px 20px 10px;
 }
 .Header .logo{
     display: flex;

@@ -1,0 +1,21 @@
+.Home{
+    margin-top: 30px;
+}
+
+.Home-head{
+    padding: 10px;
+    background: linear-gradient(45deg, #ff006a, #e90000);
+}
+
+.Home-quiz{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:20px ;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Home-quiz{
+        display: block;
+    }
+}
