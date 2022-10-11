@@ -16,6 +16,9 @@
     color: black;
     padding: 10px;
 }
+.eyeIcon{
+    height: 30px;
+}
 .options {}
 .options  ul{
     list-style: none;
@@ -36,11 +39,33 @@
 .answer h2{
     text-align: center;
 }
+.correctAns{
+    background: yellow;
+    padding: 10px;
+    text-align: left;
+    color: black;
+    display: none;
 
+}
+
+.displayNone{
+    display: none !important;
+}
+.displayblock{
+    display: block !important;
+}
+.answer h4 span{
+    font-weight: bold;
+}
 .False{
     background-color: red !important;
 }
 
 .True{
     background-color: #198754 !important;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
 }
