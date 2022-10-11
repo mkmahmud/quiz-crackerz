@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './Quiz.css'
 
 const Quiz = ({data}) => {
-    console.log(data)
     return (
         <div className="card bg-dark" >
         <img src={data.logo} className='card-img-top' alt="" />
@@ -11,7 +10,7 @@ const Quiz = ({data}) => {
           <h5 class="card-title">{data.name}</h5>
           <div className="bottom-bar">
             <h6>Total {data.total}</h6>
-            <Link to='/' className='btn btn-primary'>Try Now</Link>
+            <Link to={`/quiz/singel-quiz/${data.id}`} className='btn btn-primary'>Try Now</Link>
           </div>
         </div>
         </div>

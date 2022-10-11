@@ -6,7 +6,6 @@ import Quiz from './Quiz/Quiz';
 const Home = () => {
 
     const topics = useLoaderData();
-    console.log(topics.data)
 
     return (
         <div className='Home'>
@@ -17,7 +16,7 @@ const Home = () => {
             </div>
             <div className="Home-quiz">
                 {
-                    topics.data.map(topic => <Quiz data={topic}></Quiz>)
+                    topics.data.map(topic => <Quiz key={topic.id} data={topic}></Quiz>)
                 }
             </div>
         </div>

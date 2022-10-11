@@ -1,0 +1,38 @@
+.question{
+    background: #636464;
+    width: 700px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.question h2{
+    background: #198754;
+    padding: 6px 0px;
+    text-align: left;
+    overflow: hidden;
+}
+.question h2 span{
+    background: yellow;
+    color: black;
+    padding: 10px;
+}
+.options {}
+.options  ul{
+    list-style: none;
+}
+.options  ul li{
+    border: 2px solid #636464;
+    margin: 15px 0px;
+    width: 95%;
+    font-size: 20px;
+    padding: 10px;
+    background: rgb(0 0 0 / 13%);
+    box-shadow: 0px 0px 0px 1px #6c757d;
+}
+.options  ul li:hover{
+    border:2px solid #0dcaf0;
+}
+
+.answer h2{
+    text-align: center;
+}
